@@ -1,6 +1,6 @@
 An online LaTeX editor that's easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more.
 
-
+这是一个非常简单的关于overleaf制作论文的模版
 
 \documentclass[12pt]{article} #设置标题以及字体大小（12pt）等于中文中的（小三）大小
 \usepackage[utf8]{inputenc} #utf-8字体设置
@@ -65,3 +65,45 @@ The chart below illustrates the processing time of this graduation project.
 \bibliographystyle{plain} #导入文献
 \bibliography{references}
 \end{document}
+
+
+关于图片导入：overleaf 左上角有upload的选项，从本地上传你需要的图片。
+创建一个关于references.bib的文献器，这里存储你需要的文献。。。一般来说，只要是google学术上都有引用，然后选取bitx模式，直接复制粘贴就可以了。
+
+
+references.bib
+@article{maori2009iapv,
+  title={IAPV, a bee-affecting virus associated with Colony Collapse Disorder can be silenced by dsRNA ingestion},
+  author={Maori, Eyal and Paldi, Nitzan and Shafir, Sharoni and Kalev, Haim and Tsur, Erez and Glick, Eitan and Sela, Illan},
+  journal={Insect molecular biology},
+  volume={18},
+  number={1},
+  pages={55--60},
+  year={2009},
+  publisher={Wiley Online Library}
+}
+
+@Misc{a,
+  title={Paralysing virus a suspect in disappearing bee mystery},
+  author={Roxanne Khamsi},
+  url={https://www.newscientist.com/article/dn12605-paralysing-virus-a-suspect-in-disappearing-bee-mystery/},
+  year={2007},
+  publisher={New Scientist}
+}
+@Misc{d,
+  title={The importance of being ethical in project management},
+  author={Moira Alexander},
+  url={https://www.techrepublic.com/article/the-importance-of-being-ethical-in-project-management/},
+  year={2017},
+  publisher={TechRepublic}
+}
+@article{ghasemi2009ethical,
+  title={Ethical considerations in animal studies},
+  author={Ghasemi, Mehdi and Dehpour, Ahmad Reza},
+  journal={Journal of medical ethics and history of medicine},
+  volume={2},
+  year={2009},
+  publisher={Tehran University of Medical Sciences}
+}
+
+
