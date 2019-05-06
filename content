@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{geometry}
+
+\geometry{left=2.54cm,right=2.54cm,top=1.0cm,bottom=1.0cm}   
+
+\title{Plan of project}
+\author{student  }
+\date{May 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+CCD (Colony Collapse Disorder) refers to the disappearance of bee colony in some states of the United States and some countries in Europe and Australia since 2006. 
+\section{Background}
+About 50\% to 90\% of commercial bee colonies in the United States suffer from colony collapse (CCD) in 2007. 
+\subsection{potential reasons}
+\subsubsection{Infectious diseases and parasites}
+The most suspected pathogens include Israel acute paralysis virus (IAPV)\citep{maori2009iapv}
+
+
+\subsubsection{Chemical drugs with bee venom}
+The anti-pathogenic drugs used in the hive and the pesticides in the environment have potential bee venom, which may be related to CCD. 
+\subsection{ Literature Review}
+Although there is no direct way to judge the real cause of the CCD phenomenon, monitoring the \par
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.65]{2.png}
+\caption{The monitoring and analysis system}
+
+\end{figure} 
+Rahman Tashakkori\citep{tashakkori2017honeybee} and several scientists proposed to observe the bee activity by implementing an automatic image processing system to construct a relatively inexpensive module to monitor the flight path of bees and the number of bee trips, including collecting weather factors to analyse the travel of bees. 
+\section{Research Methodology }
+Determining the theme of a project is a prerequisite for the success of the project. CCD is the background of the whole project. 
+
+
+\subsection{Image Processing}
+The content of the acquired data set is mainly divided into three categories, the first type \par
+
+\subsection{Training picture feature extraction and selection}
+Feature extraction refers to obtaining various metrics or attributes that are useful for classification from the object itself. \par
+In theory, the characteristics of an individual are unique because there are no two identical individuals. 
+\section{Ethics and professional considerations200}
+For the Ethics and professional considerations\citep{d} 
+Also, the protection of animal rights\citep{ghasemi2009ethical} 
+\section{Risk consideration }
+
+The second is about getting the data set, the source of the training photos are all from the network resources.
+\section{Project evaluation}
+The function of this project is mainly to realise the detection and recognition of the queen bee using image processing and machine learning.
+\section{Planning}
+The chart below illustrates the processing time of this graduation project.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{1.png}
+\caption{project plan}
+\end{figure} 
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
