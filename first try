@@ -1,0 +1,67 @@
+An online LaTeX editor that's easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more.
+
+
+
+\documentclass[12pt]{article} #设置标题以及字体大小（12pt）等于中文中的（小三）大小
+\usepackage[utf8]{inputenc} #utf-8字体设置
+\usepackage{natbib} #导入文献的包
+\usepackage{graphicx} #导入图片的包
+\usepackage{indentfirst} #第一段空两行
+\usepackage{geometry} #默认设置页面的边距
+
+\geometry{left=2.54cm,right=2.54cm,top=1.0cm,bottom=1.0cm}
+
+\title{Plan of project}
+\author{student }
+\date{May 2019}
+#论文的标题
+\begin{document}
+#开始正文内容
+\maketitle
+#制作标题
+\section{Introduction} 第一章节的编写（如果要小标题就使用开头subsection）
+CCD (Colony Collapse Disorder) refers to the disappearance of bee colony in some states of the United States and some countries in Europe and Australia since 2006.
+\section{Background}
+About 50% to 90% of commercial bee colonies in the United States suffer from colony collapse (CCD) in 2007.
+\subsection{potential reasons}
+\subsubsection{Infectious diseases and parasites}
+The most suspected pathogens include Israel acute paralysis virus (IAPV)\citep{maori2009iapv} #设置文献的引用
+
+\subsubsection{Chemical drugs with bee venom}
+The anti-pathogenic drugs used in the hive and the pesticides in the environment have potential bee venom, which may be related to CCD.
+\subsection{ Literature Review}
+Although there is no direct way to judge the real cause of the CCD phenomenon, monitoring the \par #文章内容的分段
+\begin{figure}[h!] #导入图片
+\centering
+\includegraphics[scale=0.65]{2.png}#导入图片，设置图片的大小（根据原有图片的大小设置）
+\caption{The monitoring and analysis system}
+
+\end{figure}
+Rahman Tashakkori\citep{tashakkori2017honeybee} and several scientists proposed to observe the bee activity by implementing an automatic image processing system to construct a relatively inexpensive module to monitor the flight path of bees and the number of bee trips, including collecting weather factors to analyse the travel of bees.
+\section{Research Methodology }
+Determining the theme of a project is a prerequisite for the success of the project. CCD is the background of the whole project.
+
+\subsection{Image Processing}
+The content of the acquired data set is mainly divided into three categories, the first type \par
+
+\subsection{Training picture feature extraction and selection}
+Feature extraction refers to obtaining various metrics or attributes that are useful for classification from the object itself. \par
+In theory, the characteristics of an individual are unique because there are no two identical individuals.
+\section{Ethics and professional considerations200}
+For the Ethics and professional considerations\citep{d}
+Also, the protection of animal rights\citep{ghasemi2009ethical}
+\section{Risk consideration }
+
+The second is about getting the data set, the source of the training photos are all from the network resources.
+\section{Project evaluation}
+The function of this project is mainly to realise the detection and recognition of the queen bee using image processing and machine learning.
+\section{Planning}
+The chart below illustrates the processing time of this graduation project.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{1.png}
+\caption{project plan}
+\end{figure}
+\bibliographystyle{plain} #导入文献
+\bibliography{references}
+\end{document}
